@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    font-family: montserrat;
+    background-size: cover;
+    text-align: center;
+    /* background-image: url('./pics/mexican-dishes-pepper.jpg'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./pics/mexican-dishes-pepper.jpg);
+    background-color: #0082ec;
+
+
+}
+
+nav {
+    background: #EB6004;
+    height: 70px;
+    width: 100%;
+    /* justify-content: space-between; */
+    text-align: justify;
+    justify-content: baseline;
+}
+
+label.logo {
+    color: rgb(255, 251, 251);
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+}
+
+a.class,
+a:hover {
+    color: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+#Sever {
+    font-family: Verdana, Sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+a {
+    /* border: #0082ec solid 2px; */
+}
+
+#see {
+    padding: 15px 20px;
+    border: none;
+    font-size: 15px;
+    background-color: #EB6004;
+}
+
+#see a {
+    border: none;
+    color: #ffffff !important;
+
+}
+
+#see:hover {
+    background-color: #d15300;
+    color: #ffffff !important;
+}
